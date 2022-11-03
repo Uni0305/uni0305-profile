@@ -26,8 +26,8 @@ export default function Home() {
           <p className="text-3xl font-medium">Developer</p>
         </h1>
       </main>
-      <footer className="flex flex-col items-center py-8 gap-4 mx-4 sm:mx-56">
-        <div className="flex flex-row items-center gap-2 sm:gap-4">
+      <footer className="flex flex-col items-center py-8 gap-4 mx-4 md:mx-8 lg:mx-56">
+        <div className="flex flex-row items-center gap-4">
           <LinkedIcon icon="simple-icons:notion" href="/notion" />
           <LinkedIcon icon="simple-icons:discord" href="/discord" />
           <LinkedIcon icon="material-symbols:mail-rounded" href="/email" />
