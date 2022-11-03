@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import UniBust from "../assets/bust_3d.png";
 import LinkedIcon from "../components/LinkedIcon";
@@ -5,6 +6,12 @@ import LinkedIcon from "../components/LinkedIcon";
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Uni0305</title>
+        <meta name="description" content="Developer" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <main className="flex flex-col items-center justify-center min-h-screen gap-4">
         <Image src={UniBust} alt="Uni0305" width={174} height={174} />
         <h1 className="flex flex-col gap-2 text-center">
