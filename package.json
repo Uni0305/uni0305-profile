@@ -1,13 +1,14 @@
 {
   "name": "uni0305-profile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "packageManager": "yarn@3.2.4",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && prettier --write ."
+    "lint": "next lint && prettier --write .",
+    "export": "next export"
   },
   "dependencies": {
     "@types/node": "18.11.9",
