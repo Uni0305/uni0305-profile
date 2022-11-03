@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import UniBust from "../assets/bust_3d.png";
+import links from "../links.json";
 import LinkedIcon from "../components/LinkedIcon";
 
 export default function Home() {
@@ -25,13 +26,13 @@ export default function Home() {
       </main>
       <footer className="flex flex-col items-center py-8 gap-4 mx-4 sm:mx-56">
         <div className="flex flex-row items-center gap-2 sm:gap-4">
-          <LinkedIcon icon="simple-icons:notion" href="/notion" />
-          <LinkedIcon icon="simple-icons:discord" href="/discord" />
-          <LinkedIcon icon="material-symbols:mail-rounded" href="/email" />
-          <LinkedIcon icon="simple-icons:youtube" href="/youtube" />
-          <LinkedIcon icon="simple-icons:github" href="/github" />
-          <LinkedIcon icon="simple-icons:twitch" href="/twitch" />
-          <LinkedIcon icon="mdi:minecraft" href="/namemc" />
+          <LinkedIcon icon="simple-icons:notion" href={links.notion} />
+          <LinkedIcon icon="simple-icons:discord" href={links.discord} />
+          <LinkedIcon icon="material-symbols:mail-rounded" href={links.email} />
+          <LinkedIcon icon="simple-icons:youtube" href={links.youtube} />
+          <LinkedIcon icon="simple-icons:github" href={links.github} />
+          <LinkedIcon icon="simple-icons:twitch" href={links.twitch} />
+          <LinkedIcon icon="mdi:minecraft" href={links.namemc} />
         </div>
         <hr className="w-full border-neutral-500" />
         <p className="text-sm font-normal sm:text-base">
