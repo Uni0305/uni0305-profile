@@ -31,6 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@iconify-icon/react", "virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:1.0.1"],\
+            ["@iconify/react", "virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:4.0.0"],\
             ["@types/node", "npm:18.11.9"],\
             ["@types/react", "npm:18.0.24"],\
             ["@types/react-dom", "npm:18.0.8"],\
@@ -140,6 +141,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@iconify-icon/react", "virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:1.0.1"],\
             ["@types/react", "npm:18.0.24"],\
             ["iconify-icon", "npm:1.0.1"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@iconify/react", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/@iconify-react-npm-4.0.0-ce9760c156-8f6644ea64.zip/node_modules/@iconify/react/",\
+          "packageDependencies": [\
+            ["@iconify/react", "npm:4.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:4.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@iconify-react-virtual-fd3686c55d/0/cache/@iconify-react-npm-4.0.0-ce9760c156-8f6644ea64.zip/node_modules/@iconify/react/",\
+          "packageDependencies": [\
+            ["@iconify/react", "virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:4.0.0"],\
+            ["@iconify/types", "npm:2.0.0"],\
+            ["@types/react", "npm:18.0.24"],\
             ["react", "npm:18.2.0"]\
           ],\
           "packagePeers": [\
@@ -4113,6 +4137,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["uni0305-profile", "workspace:."],\
             ["@iconify-icon/react", "virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:1.0.1"],\
+            ["@iconify/react", "virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:4.0.0"],\
             ["@types/node", "npm:18.11.9"],\
             ["@types/react", "npm:18.0.24"],\
             ["@types/react-dom", "npm:18.0.8"],\
