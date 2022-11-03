@@ -84,6 +84,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify/react@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@iconify/react@npm:4.0.0"
+  dependencies:
+    "@iconify/types": ^2.0.0
+  peerDependencies:
+    react: ">=16"
+  checksum: 8f6644ea6467fa2dc622a231bbb4705cc840e5f756c9a00b9d1deb4bf9cf122c03e654724335684f9a00b9c1fd2253cc2ca560e06285e65c09b8da50b3e0d06a
+  languageName: node
+  linkType: hard
+
 "@iconify/types@npm:^2.0.0":
   version: 2.0.0
   resolution: "@iconify/types@npm:2.0.0"
@@ -3405,6 +3416,7 @@ __metadata:
   resolution: "uni0305-profile@workspace:."
   dependencies:
     "@iconify-icon/react": ^1.0.1
+    "@iconify/react": ^4.0.0
     "@types/node": 18.11.9
     "@types/react": 18.0.24
     "@types/react-dom": 18.0.8
