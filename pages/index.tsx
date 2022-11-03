@@ -10,7 +10,10 @@ export default function Home() {
       <Head>
         <title>Uni0305</title>
         <meta name="description" content="Developer" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon@16.ico" sizes="16x16" />
+        <link rel="icon" href="/favicon@32.ico" sizes="32x32" />
+        <link rel="icon" href="/favicon@64.ico" sizes="64x64" />
+        <link rel="icon" href="/favicon@128.ico" sizes="128x128" />
       </Head>
 
       <main className="flex flex-col items-center justify-center min-h-screen gap-4">
