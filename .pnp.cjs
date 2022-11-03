@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.24"],\
             ["@types/react-dom", "npm:18.0.8"],\
             ["next", "virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:13.0.1"],\
+            ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
@@ -357,6 +358,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.7.1", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.7.1-d1f40f5e1a-55a4409182.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react", [\
         ["npm:18.2.0", {\
           "packageLocation": "./.yarn/cache/react-npm-18.2.0-1eae08fee2-88e38092da.zip/node_modules/react/",\
@@ -468,6 +478,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.24"],\
             ["@types/react-dom", "npm:18.0.8"],\
             ["next", "virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:13.0.1"],\
+            ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:73f3c60b733f696e3c6d74080c8037b25fb689d9c79ee02144ed8e5c943b220f0a8c664f39388b95863c83cc15c259e8f73d2d82b5e6e6f310cb39497c98fe2d#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
