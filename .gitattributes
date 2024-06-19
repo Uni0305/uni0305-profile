@@ -7,3 +7,7 @@
 /.yarn/cache/typescript-npm-4.9.4-51bdca3293-e782fb9e00.zip filter=lfs diff=lfs merge=lfs -text
 /.yarn/cache/typescript-patch-f9fa5c6c8f-37f6e2c3c5.zip filter=lfs diff=lfs merge=lfs -text
 /.yarn/cache/typescript-patch-7bc527fc0a-1caaea6cb7.zip filter=lfs diff=lfs merge=lfs -text
+/.yarn/cache/@next-swc-darwin-arm64-npm-14.2.4-86d534c3ee-10c0.zip filter=lfs diff=lfs merge=lfs -text
+/.yarn/cache/next-npm-14.2.4-37fb4e5b51-630c2a197b.zip filter=lfs diff=lfs merge=lfs -text
+/.yarn/cache/typescript-npm-5.4.5-8568a42232-2954022ada.zip filter=lfs diff=lfs merge=lfs -text
+/.yarn/cache/typescript-patch-6e159bfddb-db2ad2a16c.zip filter=lfs diff=lfs merge=lfs -text
