@@ -1,6 +1,6 @@
 {
   "name": "uni0305-profile",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "private": true,
   "packageManager": "yarn@4.3.0",
   "scripts": {
