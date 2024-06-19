@@ -2,7 +2,7 @@
   "name": "uni0305-profile",
   "version": "0.1.9",
   "private": true,
-  "packageManager": "yarn@3.3.1",
+  "packageManager": "yarn@4.3.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
